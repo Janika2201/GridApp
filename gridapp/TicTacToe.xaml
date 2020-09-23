@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="gridapp.TicTacToe">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout>
+                <Button x:Name="btn22" 
+                    Text="Vajuta siia" 
+                    BackgroundColor="#F80303"
+                    BorderColor="#AAFF00"
+                    BorderWidth="7"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Clicked="btn_Clicked"
+                    VerticalOptions="FillAndExpand">
+                </Button>
+                <Button x:Name="btn0" 
+                    Text="0" 
+                    Clicked="btn0_Clicked"
+                    VerticalOptions="FillAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
