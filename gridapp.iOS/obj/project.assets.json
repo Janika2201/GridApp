@@ -984,11 +984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.iOS\\gridapp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.iOS\\gridapp.iOS.csproj",
       "projectName": "gridapp.iOS",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.iOS\\gridapp.iOS.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.iOS\\gridapp.iOS.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1009,8 +1009,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj": {
-              "projectPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj"
+            "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj": {
+              "projectPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj"
             }
           }
         }

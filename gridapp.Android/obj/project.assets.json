@@ -1936,11 +1936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.Android\\gridapp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.Android\\gridapp.Android.csproj",
       "projectName": "gridapp.Android",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.Android\\gridapp.Android.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.Android\\gridapp.Android.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp.Android\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1961,8 +1961,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj": {
-              "projectPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj"
+            "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj": {
+              "projectPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj"
             }
           }
         }

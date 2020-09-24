@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Xml.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,7 +19,7 @@ namespace gridapp
 
             for (int i = 0; i < 3; i++)
             {
-                grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(90, GridUnitType.Star) });
+                grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(110, GridUnitType.Star) });
                 grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(2, GridUnitType.Star) });
 
             }
@@ -35,13 +35,45 @@ namespace gridapp
                     box.GestureRecognizers.Add(tap);
                 }
             }
+
+            AbsoluteLayout absolute = new AbsoluteLayout
+            {
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                
+            };
+
+            Button newGame = new Button
+            {
+                BackgroundColor = Color.Gray,
+                TextColor = Color.FromRgb(255, 255, 255),
+                Text = "Uus mäng"
+                
+            };
+            AbsoluteLayout.SetLayoutBounds(newGame, new Rectangle(0.5, 0.02, 175, 50));
+            AbsoluteLayout.SetLayoutFlags(newGame, AbsoluteLayoutFlags.PositionProportional);
+            absolute.Children.Add(newGame);
+
+            Button XO = new Button
+            {
+                BackgroundColor = Color.Gray,
+                TextColor = Color.FromRgb(255, 255, 255),
+                Text = "X või O",
+                HorizontalOptions = LayoutOptions.CenterAndExpand
+            };
+            AbsoluteLayout.SetLayoutBounds(XO, new Rectangle(0.1, 0.5, 100, 50));
+            AbsoluteLayout.SetLayoutFlags(XO, AbsoluteLayoutFlags.PositionProportional);
+            absolute.Children.Add(XO);
+
             StackLayout stack = new StackLayout()
             {
-                Children = { grid }
+                Children = { grid, absolute}
             };
 
             Content = stack;
         }
+
+
+
         private void Tap_Tapped(object sender, EventArgs e)
         {
 
@@ -60,16 +92,6 @@ namespace gridapp
             {
                 box.Color = Color.FromRgb(200, 100, 50);
             }
-        }
-
-        private void btn_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn0_Clicked(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -634,11 +634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj",
       "projectName": "gridapp",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

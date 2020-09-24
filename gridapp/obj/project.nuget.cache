@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrGQmi3KKvbtQonZAwp+u5xA1g2KFF14HvrhPGqQnARKWJj3YMMvFHy6w34B39XxRKks4uzxfj3D0R9FpWEo5Q==",
+  "dgSpecHash": "m6JfeWzR0ZnwcMGhLTyVv8gyUkSLIIc2jXJcHEnvXb7q+hmpKM0Q6yMMuRUxDece+PMJiervPRpEK/P3vayR1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\gridapp\\gridapp\\gridapp.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\Desktop\\GridApp\\gridapp\\gridapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
