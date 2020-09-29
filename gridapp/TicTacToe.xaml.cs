@@ -14,6 +14,8 @@ namespace gridapp
     {
         public TicTacToe()
         {
+            int player = 1;
+            Label lblk, lblp;
             BoxView box;
             Grid grid = new Grid();
 
@@ -78,19 +80,27 @@ namespace gridapp
         {
 
             BoxView box = sender as BoxView;
-            //box.Color = Color.Aqua;
+            if (box.Color == Color.FromRgb(255, 255, 255)) 
+            {
 
-            if (box.Color == Color.AliceBlue)
-            {
-                box.Color = Color.YellowGreen;
+               switch (player) 
+                {
+                    case 1:
+                        box.Color = Color.FromRgb(255, 0, 0); 
+                        player = 0;
+                        lblp.Text = "Ходит синий";
+                        break;
+                    case 0:
+                        box.Color = Color.FromRgb(0, 0, 255);
+                        player = 1;
+                        lblp.Text = "Ходит красный";
+                        break;
+                }
+
             }
-            else if (box.Color == Color.FromRgb(200, 100, 50))
+            else //если ячейка не белая, значит она уже занята 
             {
-                box.Color = Color.AliceBlue;
-            }
-            else if (box.Color == Color.YellowGreen)
-            {
-                box.Color = Color.FromRgb(200, 100, 50);
+                lblk.Text = "Эта клетка уже занята!";
             }
         }
     }
