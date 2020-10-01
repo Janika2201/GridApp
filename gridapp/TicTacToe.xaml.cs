@@ -228,7 +228,7 @@ namespace gridapp
         }
         private async void restartLilla()
         {
-            string Taaskaivita = await DisplayPromptAsync("Taaskaivita", "LILLA Võitis! Kas soovite uuesti mängida ? Yes - 1, No - 2",
+            string Taaskaivita = await DisplayPromptAsync("Taaskaivita", "LILLA Võitis! Kas soovite uuesti mängida ? Jah - 1, Ei - 2",
                 initialValue: "1",
                 maxLength: 1,
                 keyboard: Keyboard.Numeric);
@@ -242,7 +242,7 @@ namespace gridapp
         }
         private async void restartRoheline()
         {
-            string Taaskaivita = await DisplayPromptAsync("Taaskaivita", "ROHELINE Võitis! Kas soovite uuesti mängida ? Yes - 1, No - 2",
+            string Taaskaivita = await DisplayPromptAsync("Taaskaivita", "ROHELINE Võitis! Kas soovite uuesti mängida ? Jah - 1, Ei - 2",
                 initialValue: "1",
                 maxLength: 1,
                 keyboard: Keyboard.Numeric);
